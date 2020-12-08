@@ -18,10 +18,12 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 In the project directory, Open cmd or any terminal  
 
 to install node package
-$ npm install
 
-### `npm start`
+### $ npm install
 
+## `npm start`
+to run app ,Open cmd or any terminal  
+### npm star
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
