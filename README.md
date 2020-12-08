@@ -20,10 +20,15 @@ In the project directory, Open cmd or any terminal
 to install node package
 
 ### $ npm install
+or 
+#### $npm i
 
 ## `npm start`
+
 to run app ,Open cmd or any terminal  
 ### npm star
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
