@@ -1,3 +1,14 @@
+/**
+ * main component of the project handel every routes between pages and control the happy unhapy path
+ *Navbar- navigation bar and footer display everytime
+ *if user emter incorrect path redirect user to not found page
+ *
+ *
+ *
+ *
+ *
+ */
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./containers/Home/Home";

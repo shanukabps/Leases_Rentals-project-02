@@ -10,7 +10,7 @@
  */
 
 import React, { useEffect, useState } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { Redirect, useParams } from "react-router-dom";
 import axios from "axios";
 import PersonIcon from "@material-ui/icons/Person";
 import GetInstalmentTable from "../GetInstalmentTable/GetInstalmentTable";
@@ -33,20 +33,16 @@ function LeasesInformation() {
   const [TenantName, setTenantName] = useState("");
   const [isFetchdata, setIsFetchdata] = useState(false);
 
-  const history = useHistory();
   /**
    * call @function fetchdata
    * checked , data is available or not ,if data not null call @function getTenantName
    * call the @function  GetpaymentInformation after data available
    * use Effect re render changing the @param isFetchdata
    */
-  useEffect(() => {
-    if (TenantName.id === undefined) {
-    }
-  }, []);
 
   useEffect(() => {
     fetchdata();
+
     if (data !== null) {
       getTenantName();
     }
@@ -71,6 +67,11 @@ function LeasesInformation() {
       })
       .catch((error) => console.log(error));
   };
+
+  //this is not sutalbe but use it to redirect home if chaged param mannualy
+  if (TenantName === undefined) {
+    return <Redirect to="/" />;
+  }
 
   /**
    *
