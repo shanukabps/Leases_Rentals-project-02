@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
+## Requirements
+
+For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+
+### Node
 
 ## first clone this repository 
  
