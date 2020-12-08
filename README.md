@@ -19,9 +19,13 @@ In the project directory, Open cmd or any terminal
 
 to install node package
 
-### $ npm install
+#### $ npm install
 or 
 #### $npm i
+
+
+
+
 
 ## `npm start`
 
