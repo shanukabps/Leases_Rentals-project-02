@@ -15,7 +15,10 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 
 ## Available Scripts
 
-In the project directory, Open cmd or any terminal  type npm start
+In the project directory, Open cmd or any terminal  
+
+to install node package
+$ npm install
 
 ### `npm start`
 
